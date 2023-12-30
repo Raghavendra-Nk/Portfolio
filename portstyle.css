@@ -1,0 +1,302 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+.main{
+    width:100%;
+    background:url();
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    font-family: sans-serif;
+    
+
+}
+.logo{
+    width:200px;
+    cursor: pointer;
+    margin-top:-1%;
+    
+}
+.navbar{
+    width:86%;
+    display: flex;
+    margin:auto;
+    padding:15px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+ul{
+    margin-top:-3%;
+   
+  
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding:10px 16px;
+
+}
+ul li a{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: darkslategray;
+   
+    transition:.4s ease;
+   
+}
+
+ul li a:hover{
+    color:rgb(230,104,59);
+
+}
+.info{
+    margin-top: 6%;
+    margin-left:7%;
+}
+.info h1{
+    font-size:65px;
+    color:rgb(36,32,30);
+
+}
+.info h3{
+    font-size:18px;
+    line-height:24px;
+}
+.info span{
+    color: rgb(241, 118, 30);
+}
+.icons a{
+    text-decoration: none;
+    color:black
+}
+
+.btn button {
+    padding: 8px 20px;
+    background: wheat;
+    border-radius: 30px;
+    border: 2px solid transparent;
+    margin-right: 1rem;
+    margin-bottom: 30px;
+    cursor: pointer;
+    margin-left:7%;
+    margin-top:3%;
+    color:black
+
+}
+.btn button:hover{
+    background-color:transparent;
+    border:2px solid black;
+    cursor:pointer;
+}
+
+.about{
+    width:100%;
+    padding:100px 0;
+    background-color:lightgray;
+    margin: top -13px;
+    height:auto;
+  
+}
+.about img{
+    height:400px;
+    width: 400px;
+    margin-right:200px;
+    border: solid 2px ;
+    border-radius:50%;
+    object-fit: cover;
+    transition:border-color 0.3s ease;
+
+}
+.about img:hover{
+  
+    border-color:transparent;
+}
+
+.abouttxt{
+    width:550px
+}
+.aboutme{
+    width:1130px;
+    max-width:95%;
+    margin: 0 auto;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+}
+
+.abouttxt h2{
+    color:black;
+    font-size:75px;
+    text-transform:capitalize;
+    margin-bottom: 20px;
+}
+.abouttxt h5{
+    color:black;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom:25px;
+    text-transform:capitalize;
+
+}
+.abouttxt p{
+    color:black;
+    letter-spacing: 1px;
+    line-height:28px;
+    font-size:18px;
+    margin-bottom:45px;
+}
+button{
+    background-color:wheat;
+    color: black;
+    text-decoration: none;
+    border:2px solid transparent;
+    font-weight: bold;
+    padding:13px 30px;
+    border-radius: 30px;
+    transition: 0.4s;
+}
+.about span{
+    color: orange;
+}
+button:hover{
+    background-color:transparent;
+    border:2px solid black;
+    cursor:pointer;
+}
+.service{
+    background: #101010;
+    width:100%;
+    padding:100px 0px
+}
+.title h2{
+    color:black;
+    font-size:75px;
+    width: 1130px;margin:30px auto;
+    text-align: center;
+
+
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height:400px;
+}
+.card{
+    height:365px;
+    width: 335px;
+    padding:20px 35px;
+    background:gray;
+    border-radius:20px;
+    margin:15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+
+}
+.card i{
+    font-size:50px;
+    display: block;
+    text-align: center;
+    margin:25px 0px;
+    color:white;
+}
+h5{
+    color: white;
+    font-size:23px;
+    margin-bottom: 15px;
+}
+.pra p{
+    color:#fcfc;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+.skills a{
+    background-color:wheat;
+    color: black;
+    text-decoration: none;
+    border:2px solid transparent;
+    font-weight: bold;
+    padding:13px 30px;
+    border-radius: 30px;
+    transition: 0.4s;
+}
+.skills a:hover{
+    background-color:transparent;
+    border:2px solid black;
+    cursor:pointer;
+}
+
+.contact-right form {
+    width: 50%;
+     margin-left:27%;
+    
+}
+
+form input,
+form textarea {
+    width: 80%;
+    border: 0;
+    outline: none;
+    background:whitesmoke;
+    padding: 15px;
+    margin: 15px;
+    color:black;
+    font-size: 15px;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+      align-items: center;
+}
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 10px;
+}
+i {
+    color: #2a2a2a;
+    font-size: 40px;
+    margin: 0px 14px ;
+    transition: all 200ms ease-in-out;
+    cursor: pointer;
+    
+    
+    
+    
+    
+}
+
+.social i:hover {
+    color: #f4637b;
+}
+#git{
+    margin-left:7%;
+}
+.home{
+    margin-left:200px;
+}
+.image{
+    margin-left: 900px;
+    width: 550px;
+ 
+    margin-top: -150px;
+}
+.web
+
+{
+    height: 500px;
+}
+.hor{
+    color: black;
+    
+}
